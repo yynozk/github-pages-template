@@ -1,0 +1,17 @@
+* How to use
+  1. Edit _config.yml.
+
+     #+BEGIN_SRC yaml
+     theme: jekyll-theme-cayman
+
+     title: title
+     description: description
+     #+END_SRC
+
+  2. Rename layout file to default.html.
+
+     : $ cp _layouts/cayman.html _layouts/default.html
+
+  3. Edit index.md.
+
+  4. Publish source for GitHub Pages!
